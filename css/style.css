@@ -1,0 +1,124 @@
+body {
+	background-color: #555;
+}
+
+.nav {
+  font-family: DIN Condensed, sans-serif, bold;
+  font-size: 30px;
+  word-spacing: 10px;
+  text-align: center;
+  color: papayawhip;
+  padding-top: 10px;
+}
+
+.nav a{
+  color: #6C9696;
+  text-decoration: none;
+}
+
+p {
+	font-size: 20px;
+}
+
+.box {
+	width: 75%;
+	height:200px;
+	margin: 100px;
+}
+
+.show-desktop {
+	display: block;
+}
+
+.show-mobile {
+	display: none;
+}
+
+.flower img {
+    width: 48%;
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+
+.dog img {
+    width: 48%;
+	float: right;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+	.show-desktop {
+		display: none;
+	}
+
+	.show-mobile {
+		display: block;
+	}
+
+	.box {
+	width: 75%;
+	height:200px;
+	margin: 50px;
+    }
+
+	.nav {
+		display: block;
+		font-size: 20px;
+		text-align: left;
+		margin-left: 50px;
+	}
+
+	p {
+	font-size: 15px;
+    }
+
+	img {
+	width: 70%;
+	margin: 20px;
+    }
+
+	body {
+		background-color: #999;
+	}
+
+}
+
+@media (min-width: 500px) and (max-width: 800px) {
+	body {
+		background-color: #777;
+	}
+
+	.box {
+	width: 75%;
+	height:200px;
+	margin: 70px;
+    }
+
+	.nav {
+		display: block;
+		font-size: 25px;
+		text-align: left;
+		margin-left: 50px;
+	}
+
+	p {
+	font-size: 18px;
+    }
+
+	img {
+	width: 85%;
+	margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
